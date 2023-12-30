@@ -1,0 +1,72 @@
+
+.allReviews{
+    padding:1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reviewBox{
+    display:flex;
+    text-align: left;
+    width:30rem;
+    height:15rem;
+    /* width:fit-content; */
+    box-sizing: border-box;
+    padding:1.5rem;
+    box-shadow: 2px 2px 5px 2px rgb(209, 205, 205);
+    border-radius:1rem;
+    margin:1rem;
+    justify-content: space-between;
+}
+.reviewBox h2{
+    color:black;
+    font-size: 1.5rem;
+}
+.reviewBox p{
+    margin:1rem 0;
+}
+.reviewBox .starRating{
+    margin-bottom: 1rem;
+}
+.reviewBox .right img{
+    width:8rem;
+    /* margin-left:1rem */
+}
+.reviewBox .left{
+    width:60%;
+}
+.reviewBox .right{
+    width:auto;
+}
+.commentUpdateLogic{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.editIcon{
+    font-size: 1.5rem;
+}
+.editPopup{
+    background:white;
+    margin-left:5rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px 2px rgb(209, 205, 205);
+    width:20rem;
+    box-sizing: border-box;
+}
+.editPopup textarea,.inputRating,.editReview{
+    margin:1rem 0;
+}
+.editPopup textarea{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid black;
+    padding:1rem;
+    width:10rem;
+    height:4rem;
+}

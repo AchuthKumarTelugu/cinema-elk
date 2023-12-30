@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik+Doodle+Shadow&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.login-page{
+    background-color:#f15a24;
+    margin:1rem 0;
+}
+.login-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width:100%;
+    height:100%;
+    background-color:#f15a24;
+}
+.login-form input{
+    margin-bottom: 1rem;
+    width:45%;
+    padding:0.6rem;
+    border:none;
+    outline:none;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+}
+.login-form .inputDiv{
+    display:flex;
+    justify-content: space-between;
+}
+.login-form h1{
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: Rubik Doodle Shadow;
+}
+.login-btn{
+    border:2px solid white !important;
+    color:white !important;
+    padding:0.5rem !important;
+    margin-bottom: 1rem !important;
+}
